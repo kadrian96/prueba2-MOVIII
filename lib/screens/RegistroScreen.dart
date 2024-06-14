@@ -57,7 +57,7 @@ Widget Cuerpo(context){
         SizedBox(height: 20.0),
         CampoContrasenia(context),
          SizedBox(height: 30.0),
-        ButonLogin(context)
+        ButonRegistro(context)
        ],
      )
     ),
@@ -96,12 +96,12 @@ return(
 );
 }
 
-Widget ButonLogin(context){
+Widget ButonRegistro(context){
   return(
     ElevatedButton(onPressed: (){
        registro(context);
        guardar();
-    }, child: Text("Registro"))
+    }, child: Text("Registrar"))
   );
 }
 
